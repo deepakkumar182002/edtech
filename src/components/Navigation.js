@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../img/logo.jpg'
+import '../App.css'
 export default function Navigation() {
     // const logo = '/edtech/public/logo.jpg'
     return (

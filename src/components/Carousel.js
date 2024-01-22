@@ -3,20 +3,22 @@ import poster1 from '../img/poster1.png'
 import poster2 from '../img/poster2.png'
 import poster3 from '../img/poster3.png'
 import Contents from './Contents'
+import '../App.css'
 
 export default function Carousel() {
     return (
         <div>
             <div className="container">
                 <div id="carouselExampleIndicators" className="carousel slide my-2" data-ride="carousel">
-                    <div className="carousel-caption d-none d-md-block" style={{ position: "absolute", top: "300px" }}>
-                        <h1>Get Started Gigital Learning</h1>
-                        <button type="button" className="btn btn-primary my-3">Register</button>
-                    </div>
+                    {/* <div className="carousel-caption d-none d-md-block" style={{ position: "absolute", top: "300px" }}> */}
                     <ol className="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <div className="carousel-caption d-none d-md-block">
+                        <h1 className="getstarted text-wrap">Get Started Gigital Learning</h1>
+                        <button type="button" className="btn btn-primary my-3">Register</button>
+                    </div>
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active" style={{ background: "black" }}>

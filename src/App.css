@@ -8,4 +8,23 @@ body{
     margin: 0;
     padding: 0;
     background:rgb(248 249 250);
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 760px) {
+    /* .card{
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+    } */
+    img{
+        position: relative;
+        display: flex;
+    }
+    .getstarted{
+        font-size: 30px;
+    }
 }
