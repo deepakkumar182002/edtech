@@ -235,6 +235,22 @@ export default function Contents() {
                             </div>
                         </div>
                     </div>
+                    <div class="card" style={{ width: "25rem" }}>
+                        <div className="review-img d-flex justify-content-between m-3">
+                            <img src={card12} alt="" style={{ width: "2rem" }} />
+                            <img src={card13} alt="" />
+                        </div>
+                        <div class="card-body">
+                            <p class="text-muted" style={{ fontSize: "0.8rem" }}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, blanditiis! Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div className="profile-img d-flex">
+                                <img src={profileimg2} alt="" />
+                                <div className="text ml-2">
+                                    <h5 class="card-title " style={{ fontSize: "0.8rem" }}>Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted" style={{ fontSize: "0.8rem" }}>Card subtitle</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                    
 
                 </div>
